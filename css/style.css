@@ -40,12 +40,12 @@ body{ height: 100%; width: 100%; min-width: 1080px;}
 .menu li a{ width: 150px; height: 30px; display: block;}
 .menu li a.m1{ background: url(../images/home1.jpg) center top no-repeat;}
 .menu li a.m2{background: url(../images/about1.jpg) center top no-repeat}
-.menu li a.m4{background: url(../images/contact1.jpg) center top no-repeat}
 .menu li a.m3{background: url(../images/events1.jpg) center top no-repeat}
+.menu li a.m4{background: url(../images/contact1.jpg) center top no-repeat}
 .menu li.select a.m1{ background: url(../images/home2.jpg) center top no-repeat;}
 .menu li.select a.m2{background: url(../images/about2.jpg) center top no-repeat}
-.menu li.select a.m4{background: url(../images/contact2.jpg) center top no-repeat}
 .menu li.select a.m3{background: url(../images/events2.jpg) center top no-repeat}
+.menu li.select a.m4{background: url(../images/contact2.jpg) center top no-repeat}
 .menu li a.shop{background: url(../images/shop.jpg) center top no-repeat}
 
 .bigbanner_box{ width: 1080px; height: 520px;background: url(../images/banner_shadow.jpg) center bottom no-repeat; margin:0 auto;}
