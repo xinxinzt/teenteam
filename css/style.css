@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,dl, dt, dd, ul, ol, li,pre,form, fieldset, legend, button, input, textarea,th, td{margin:0;padding: 0;}
+body,button, input, select, textarea{font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+ul, ol { list-style: none;}
+a { text-decoration: none;color:#F30;}
+a:link {}
+a:visited {}
+a:hover{color:#00CC33;}
+a:active{}
+sup { vertical-align: text-top; } /* 重置，减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+table { border-collapse:collapse; border-spacing: 0; }
+/*通用定义*/
+.clear{clear:both; height:0px; display:block; font-size:1px;}
+.clearfix:after {clear:both; height:0; overflow:hidden; display:block; visibility:hidden; content:"."; }
+.space5{clear:both; height:5px; display:block; font-size:1px;overflow:hidden;}
+.space10{clear:both; height:10px; display:block; font-size:1px;overflow:hidden;}
+body{ height: 100%; width: 100%; min-width: 1080px;}
+.index_logo{ width:600px; height: 299px; position: absolute; left: 50%; top: 50%; margin:-150px 0 0 -300px; }
+
+.bigbox{ width: 1080px; margin: 0 auto; height: auto; }
+/*home*/
+.top_box{ width: 1080px ;height: 140px; clear: both;}
+.left_logo{ float: left; width: 156px; height: 88px; float: left; margin:30px 0 0 40px;}
+.left_logo img{ width: 156px; height: 88px; }
+
+.right_box{width: 850px ;height: 140px; float: left; margin-left: 20px;  }
+.wei_box{ float: right; padding-top: 18px;}
+.menu{ clear: both; float: right; margin-top: 45px;margin-right: -20px;}
+.wei_box a{ padding: 0 20px;}
+.menu li{ width: 150px; height: 30px; display: block; float: left; margin-left: 12px;}
+.menu li a{ width: 150px; height: 30px; display: block;}
+.menu li a.m1{ background: url(../images/home1.jpg) center top no-repeat;}
+.menu li a.m2{background: url(../images/about1.jpg) center top no-repeat}
+.menu li a.m3{background: url(../images/contact1.jpg) center top no-repeat}
+.menu li a.m4{background: url(../images/events1.jpg) center top no-repeat}
+.menu li.select a.m1{ background: url(../images/home2.jpg) center top no-repeat;}
+.menu li.select a.m2{background: url(../images/about2.jpg) center top no-repeat}
+.menu li.select a.m3{background: url(../images/contact2.jpg) center top no-repeat}
+.menu li.select a.m4{background: url(../images/events2.jpg) center top no-repeat}
+.menu li a.shop{background: url(../images/shop.jpg) center top no-repeat}
+
+.bigbanner_box{ width: 1080px; height: 520px;background: url(../images/banner_shadow.jpg) center bottom no-repeat; margin:0 auto;}
+.banner{ width: 1080px; height: 500px; overflow: hidden;}
+.moko-slider{ position:relative; overflow:hidden; zoom:1;}
+.moko-slider ul{ overflow:hidden; zoom:1; margin:0; padding:0; list-style:none; height: 500px;}
+.moko-slider ul li{  float:left; display:block; width:1080px; text-align:center; }
+.moko-slider ul li img{width: 1080px; height: 500px;}
+.moko-slider ul li a{ display:block;}
+.moko-slider .frame{ width:1080px; overflow:hidden;}
+.moko-slider .point-ctrl{ position:absolute; right:10px; top:195px;width: 100%;}
+.moko-slider .left-point,.moko-slider .right-point{ width: 54px; height: 32px; 
+	background:url(../images/ui_slider_ctrl.png); _background:url(../images/ui_slider_ctrl.gif); _filter: alpha(opacity=70); float:left;}
+.moko-slider .left-point{ background-position: 0 0; float: left;}
+.moko-slider .left-point:hover{ background-position: 0 -33px;}
+.moko-slider .right-point{ background-position: right 0 ; width: 53px; float: right;}
+.moko-slider .right-point:hover{ background-position: right -33px;}
+.moko-slider .controller{ text-align:right; font: 24px/1.231 arial; _font-size:16px; font-weight:bold; margin:0px; padding-right:10px; 
+	overflow:hidden; zoom:1;position:absolute; left:45%; bottom:15px; }
+.moko-slider .controller a{ text-decoration:none; color:#ffffff; line-height: 24px; height: 24px; margin:0 5px; display:inline-block; text-align:center; }
+.moko-slider .controller a:hover{ color:#dedede;}
+.moko-slider .controller .moko-slider-on,.moko-slider .controller .moko-slider-on:hover{ color:#f09;}
+
+.tab_box{width: 1017px; margin: 0 auto; height: 173px;}
+.tab_box li{width: 329px;height: 173px;background: url(../images/home_34.jpg) center bottom no-repeat; float: left; margin:5px;}
+.tab_box li img{width: 329px;height: 163px;}
+
+.copy_box{ width: 341px; height: 7px; margin:0 auto; padding: 30px 0 50px;}
+/*一张图banner*/
+.banner img{ width: 1080px; height: 500px;}
+
+/*about*/
+.about_box{ width: 1000px; height: 689px; padding: 50px 40px; margin:0 auto;background:#edd3aa url(../images/banner_shadow.jpg) center bottom no-repeat;  }
+.about_boximg{ width: 990px; height: 680px; overflow-y: auto;overflow-x: hidden;}
